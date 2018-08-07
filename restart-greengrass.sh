@@ -1,5 +1,5 @@
 #!/bin/bash
 
-service greengrassd restart
+systemctl restart greengrassd.service --no-block
 
 
